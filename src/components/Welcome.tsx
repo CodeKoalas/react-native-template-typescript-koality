@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import { FlatList } from 'react-native';
 import styled from 'styled-components/native';
 import api from '../api/api';
@@ -21,7 +21,7 @@ const PhotoItem = styled.Image`
   width: 640px;
 `;
 
-export default class Welcome extends Component {
+export default class Welcome extends React.Component<object, object> {
   state = {
     photos: [],
   };

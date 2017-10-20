@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Platform } from 'react-native';
 import styled from 'styled-components/native';
 import RouterButton from 'react-router-native-button';

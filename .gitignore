@@ -54,3 +54,11 @@ fastlane/screenshots
 
 # editor files
 .tern-port
+
+# TypeScript
+#
+lib/
+
+# Jest
+#
+.jest/

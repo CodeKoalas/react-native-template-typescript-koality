@@ -13,7 +13,8 @@
     "template",
     "starter",
     "boilerplate",
-    "kit"
+    "kit",
+    "typescript"
   ],
   "author": "Sean Groff",
   "license": "MIT",
