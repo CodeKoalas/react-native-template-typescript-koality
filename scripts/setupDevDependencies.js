@@ -25,7 +25,7 @@ function createScripts() {
   if (!packageJSON.scripts) {
     packageJSON.scripts = {};
   }
-  packageJSON.scripts.lint = "eslint '{src,__test__}/**/*.js'";
+  packageJSON.scripts.lint = "tslint '{src,__test__}/**/*.tsx'";
   packageJSON.scripts.format = "prettier-eslint --write '{src,__test__}/**/*.js'";
   packageJSON.jest = {
     "preset": "react-native",
