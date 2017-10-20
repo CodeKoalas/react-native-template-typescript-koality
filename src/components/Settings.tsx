@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import styled from 'styled-components/native';
 
 const Container = styled.View`
@@ -13,7 +13,7 @@ const EditFieldHeader = styled.Text``;
 
 const EditButton = styled.Button``;
 
-export default class Settings extends Component {
+export default class Settings extends React.Component<object, object> {
   state = {
     user: this.props.user,
     edit: false,

@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import Drawer from 'react-native-drawer-layout-polyfill';
 import { Route } from 'react-router-native';
 

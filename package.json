@@ -1,10 +1,10 @@
 {
-  "name": "react-native-template-koality",
-  "version": "1.6.0",
-  "description": "A high koality react native template",
+  "name": "react-native-template-typescript-koality",
+  "version": "1.0.0",
+  "description": "A high koality react native typescript template",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodeKoalas/KoalityReactNativeTemplate.git"
+    "url": "git+https://github.com/CodeKoalas/react-native-template-typescript-koality.git"
   },
   "keywords": [
     "react",
@@ -12,12 +12,13 @@
     "template",
     "starter",
     "boilerplate",
-    "kit"
+    "kit",
+    "typescript"
   ],
-  "author": "Donnie West",
+  "author": "Sean Groff",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CodeKoalas/KoalityReactNativeTemplate/issues"
+    "url": "https://github.com/CodeKoalas/react-native-template-typescript-koality/issues"
   },
-  "homepage": "https://github.com/CodeKoalas/KoalityReactNativeTemplate#readme"
+  "homepage": "https://github.com/CodeKoalas/react-native-template-typescript-koality#readme"
 }

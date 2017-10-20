@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import styled from 'styled-components/native';
 import { Redirect } from 'react-router-native';
 import api from '../api/api';
@@ -15,7 +15,7 @@ const Filler = styled.Text`
   
 `;
 
-export default class Login extends Component {
+export default class Login extends React.Component<object, object> {
   handlePress = () => {
     api.login().then(user => this.props.login(user));
   };

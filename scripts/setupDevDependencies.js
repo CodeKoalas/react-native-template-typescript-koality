@@ -27,6 +27,25 @@ function createScripts() {
   }
   packageJSON.scripts.lint = "eslint '{src,__test__}/**/*.js'";
   packageJSON.scripts.format = "prettier-eslint --write '{src,__test__}/**/*.js'";
+  packageJSON.jest = {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js"
+    ],
+    "transform": {
+        "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+        "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+        "\\.snap$",
+        "<rootDir>/node_modules/",
+        "<rootDir>/lib/"
+    ],
+    "cacheDirectory": ".jest/cache"
+}
   fs.writeFileSync(packageJSONPath, JSON.stringify(packageJSON, null, 2), 'utf8');
 }
 
