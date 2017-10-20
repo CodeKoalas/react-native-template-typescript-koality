@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- React Native version 0.43 or higher
+- React Native version 0.49 or higher
 
 ## Installation
 
@@ -12,6 +12,13 @@ cd <new project name>
 node scripts/setupDevDependencies.js
 ```
 
+## Getting Started
+
+```
+tsc
+npm run start
+```
+
 ## Included out of the box
 
 - React Native Drawer Layout
@@ -19,6 +26,7 @@ node scripts/setupDevDependencies.js
 - Redux
 - Redux Persist
 - Styled Components
+- TypeScript
 - Basic app template with:
   - Above libraries setup and configured
   - Routing
